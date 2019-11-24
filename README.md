@@ -1,38 +1,27 @@
-# Ache Minha Escola
+# Project
 
-![Alt text](./logo_minhaescola.svg)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
-Hackathon Social - Sicredi 2019
+## Development server
 
-Juntos por transparência e dados abertos para a educação
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-22, 23 e 24 de novembro de 2019 - Porto Alegre
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Backend
+## Build
 
-- Python
-- Flask
-- SQL
-- SQLAlchemy
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Running unit tests
 
-### Install Requirements
-```
-cd backend
-pip install -r requirements.txt
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Run
-```
-python app.py
-```
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-### API functions
+## Further help
 
-- Todas as escolas registradas
-- Informacoes detalhadas sobre a escola
-- Pesquisa de escolas a partir de filtros
-- Pesquisa de escolas pela localizacao
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
