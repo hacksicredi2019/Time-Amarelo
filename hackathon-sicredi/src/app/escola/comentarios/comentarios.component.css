@@ -1,0 +1,16 @@
+.comentario {
+    margin-top: 1rem;
+}
+
+.fa-star {
+    font-size: 20px;
+}
+
+.comentario .fa-star {
+    color: var(--laranja);
+    margin-right: .25rem;
+}
+
+.comentario p {
+    margin-bottom: 0;
+}

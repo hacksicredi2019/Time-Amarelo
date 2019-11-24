@@ -1,0 +1,78 @@
+.btn-filtros {
+  width: calc(100% - 2rem);
+  margin: 1rem;
+  border: 2px solid var(--azul-escuro);
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--azul-escuro);
+}
+
+.card-escola {
+  margin: 0 1rem 1rem;
+}
+
+.card-escola .card-body {
+  padding: 0.5rem;
+}
+
+.card-escola .foto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-escola .card-title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.card-escola p {
+  margin-bottom: 0;
+}
+
+.card-escola .badge {
+  margin-bottom: 0.25px;
+  color: #6c757d;
+  background-color: #fff;
+  border: 1px solid #6c757d;
+  font-size: 0.8rem;
+}
+
+.metodos {
+  margin-top: 1rem;
+}
+
+.card-escola .badge:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.card-escola .card-title, .endereco {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  margin: 0;
+  border: none;
+  height: 100%;
+}
+
+.modal-content {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.modal-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.modal-footer button {
+  width: 50%;
+}

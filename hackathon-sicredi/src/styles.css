@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --background: #fdfdfd;
+  --azul-escuro: #3831a0;
+  --azul-claro: #2e96fc;
+  --laranja: #fea431;
+  --vermelho: #d60246;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.card:not(.card-geral) {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+}
+
+a {
+  color: var(--azul-escuro);
+}

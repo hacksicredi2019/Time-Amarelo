@@ -1,0 +1,68 @@
+.container {
+  margin-top: 1rem;
+}
+
+.nav-tabs {
+  border: 1px solid var(--azul-escuro);
+  border-radius: 0.5rem;
+}
+
+.nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link {
+  padding: 8px 0;
+  color: var(--azul-escuro);
+  border-radius: 0;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+}
+
+.nav-item:not(:last-of-type) .nav-link {
+  border-right: 1px solid var(--azul-escuro);
+}
+
+.nav-item:first-of-type .nav-link {
+  border-radius: .5rem 0 0 .5rem;
+}
+
+.nav-item:last-of-type .nav-link {
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.tab-pane {
+  margin-top: 1rem;
+}
+
+.info-colegio {
+  position: relative;
+}
+
+.info-colegio h1 {
+  margin-bottom: 1rem;
+}
+
+.info-colegio img {
+  margin-bottom: 1rem;
+}
+
+.info-colegio .avaliacao-geral {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.info-colegio .fa-star {
+  font-size: 1rem;
+  color: var(--laranja);
+}
+
+h1 {
+  font-size: 1.5em;
+}

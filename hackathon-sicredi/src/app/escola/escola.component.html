@@ -1,0 +1,78 @@
+<div class="container">
+  <section class="info-colegio">
+    <h1 class="nome-escola">EMEB Dr. Liberato Salzano Vieira da Cunha</h1>
+    <p class="text-success">5 vagas disponíveis</p>
+    <span class="avaliacao-geral">5/5 <i class="fa fa-star"></i></span>
+    <img src="assets/images/liberato.jpg" alt="#" class="img-fluid" />
+    <p>
+      Com 65 anos de existência, a EMEB Dr. Liberato Salzano Vieira da Cunha é
+      uma tradicional escola no bairro do Sarandi. Possui como diferencial a
+      oferta de Educação Profissional nas áreas de Contabilidade, Administração,
+      Informática e formação de professores de Educação Infantil. Atende portadores de necessidades
+      especiais, com dependências adaptadas e professores preparados para recebê
+      -los.
+    </p>
+  </section>
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="geral-tab" data-toggle="tab" href="#geral"
+        >Geral</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="indices-tab" data-toggle="tab" href="#indices"
+        >Índices</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        id="comentarios-tab"
+        data-toggle="tab"
+        href="#comentarios"
+        >Comentários</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="contato-tab" data-toggle="tab" href="#contato"
+        >Contato</a
+      >
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div
+      id="geral"
+      class="tab-pane fade show active"
+      role="tabpanel"
+      aria-labelledby="geral-tab"
+    >
+      <app-geral></app-geral>
+    </div>
+    <div
+      id="indices"
+      class="tab-pane fade"
+      role="tabpanel"
+      aria-labelledby="indices-tab"
+    >
+      <app-indices></app-indices>
+    </div>
+    <div
+      id="comentarios"
+      class="tab-pane fade"
+      role="tabpanel"
+      aria-labelledby="comentarios-tab"
+    >
+      <app-comentarios></app-comentarios>
+    </div>
+    <div
+      id="contato"
+      class="tab-pane fade"
+      role="tabpanel"
+      aria-labelledby="contato-tab"
+    >
+      <app-contato></app-contato>
+    </div>
+  </div>
+</div>

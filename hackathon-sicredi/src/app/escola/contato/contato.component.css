@@ -1,0 +1,11 @@
+a {
+  display: -webkit-box;
+  padding: 5px 0;
+}
+
+.email {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
